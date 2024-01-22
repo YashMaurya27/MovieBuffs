@@ -1,0 +1,62 @@
+.seats-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.seats-header-left {
+  text-align: start;
+}
+
+.seats-header-right > p {
+  border: 1px solid #666666;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.seats-header-right > button {
+  width: 200px;
+  background-color: #950101;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.seats-container {
+  width: 50%;
+  margin: 20px auto;
+  max-width: 1520px;
+}
+
+.section-seats > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-seats > div > button {
+  border: 1px solid #1ea83c;
+  color: #1ea83c;
+  outline: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 40px;
+  height: 4vh;
+  transition: 0.3s ease;
+}
+
+.confirm-seat-info {
+  width: 100%;
+}
+
+.confirm-seat-info > div {
+  display: flex;
+  justify-content: space-between;
+}

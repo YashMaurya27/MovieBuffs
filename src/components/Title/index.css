@@ -1,0 +1,141 @@
+.title-cover-section {
+    width: 100%;
+    background-color: black;
+}
+
+.title-cover-container {
+    max-width: 1520px;
+    width: 98%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.title-cover-main {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.title-cover-image {
+    height:60vh;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.title-cover-details {
+    padding: 0 20px;
+    width: 60%;
+    color: white;
+    text-align: start;
+    position: relative;
+}
+
+.title-cover-ratings {
+    font: 18px;
+}
+
+.title-cover-ratings > span {
+    font-size: 14px;
+    opacity: 60%;
+}
+
+.title-cover-description {
+    font-size: 13px;
+    opacity: 60%;
+}
+
+.title-cover-details > button {
+    background-color: #f5222d;
+    padding: 10px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.title-cover-details > button:hover {
+    background-color: #f62c36;   
+}
+
+
+
+
+
+
+/* SEATS MODAL CSS */
+
+.seats-container {
+    align-items: center;
+}
+
+.seat-count-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.seats-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.seats-img-container > img {
+    width: 40%;
+    height: 25vh;
+    margin: auto;
+}
+
+.seat-categories {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seat-categories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seat-categories > div > p {
+    margin: 0;
+    text-align: center;
+}
+
+.seat-show-timings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr {
+    opacity: 30%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.seat-show-timings-header {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px 0;
+}
+
+.seat-show-timings-header > p {
+    margin-right: 10px;
+}
+
+.seat-show-timings > button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    /* color: #4abd5d; */
+    margin: 0 10px;
+    background-color: white;
+}
