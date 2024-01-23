@@ -17,7 +17,11 @@ export default function Confirmation(props) {
     });
     console.log('mapping', priceSectionMapping);
     section.push(
-        <div></div>
+        <div>
+            <p>
+                {}
+            </p>
+        </div>
     )
     return <></>
   };
