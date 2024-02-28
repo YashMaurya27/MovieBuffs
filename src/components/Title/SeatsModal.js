@@ -102,7 +102,7 @@ export default function SeatsModal(props) {
         okText={`Select Seats`}
         okType="danger"
       >
-        <div className="seats-container">
+        <div className="seats-container-modal">
           <div className="seats-img-container">
             <img src={image} alt="popcorn" />
           </div>

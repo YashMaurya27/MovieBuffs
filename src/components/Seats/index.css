@@ -28,6 +28,12 @@
 }
 
 .seats-container {
+  width: 50%;
+  margin: 20px auto;
+  max-width: 1520px;
+}
+
+.seats-container-modal {
   width: 100%;
   margin: 20px auto;
   max-width: 1520px;
