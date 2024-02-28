@@ -32,16 +32,16 @@ export default function Confirmation(props) {
       closeIcon
       width={800}
       closable
-      title={`Booking Summary`}
+      title={`Booking Confirmation`}
       destroyOnClose
       afterClose={handleCloseModal}
-      onOk={() => {}}
+      onOk={handleCloseModal}
       onCancel={handleCloseModal}
-      okText={`Confirm`}
+      okText={`Okay`}
       okType="danger"
     >
         <div className="confirm-seat-info">
-            {renderSeatInfo()}
+            <p>Congratulations! Your tickets have been booked</p>
         </div>
     </Modal>
   );
