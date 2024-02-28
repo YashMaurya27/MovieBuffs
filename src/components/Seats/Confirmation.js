@@ -1,10 +1,12 @@
 import { Modal } from "antd";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Confirmation(props) {
   const handleCloseModal = () => {
     props.setOpen(false);
   };
+  const nav = useNavigate();
 
   const renderSeatInfo = () => {
     const section = [];
@@ -35,7 +37,10 @@ export default function Confirmation(props) {
       title={`Booking Confirmation`}
       destroyOnClose
       afterClose={handleCloseModal}
-      onOk={handleCloseModal}
+      onOk={() => {
+        handleCloseModal();
+        nav('../../home');
+      }}
       onCancel={handleCloseModal}
       okText={`Okay`}
       okType="danger"
